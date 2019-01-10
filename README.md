@@ -29,7 +29,7 @@ $ sudo apt-get install vim curl
 1. Link .vimrc to home directory.
 
    ```bash:
-   $ ln -s $HOME/.vim/.vimrc .vimrc
+   $ ln -s $HOME/.vim/.vimrc $HOME/.vimrc
    ```
 
 1. Open vim and install dein
