@@ -32,8 +32,15 @@ $ sudo apt-get install vim curl
    $ ln -s $HOME/.vim/.vimrc $HOME/.vimrc
    ```
 
-1. Open vim and install dein
+1. Install dein
 
    ```bash:
+   $ vim
    :call dein#install()
+   ```
+   
+   or
+   
+   ```bash:
+   $ vim -c ":silent! call dein#install() | :q"
    ```
