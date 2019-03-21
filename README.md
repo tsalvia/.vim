@@ -5,7 +5,7 @@
 ### Prerequisites
 
 ```bash:
-$ sudo apt-get install vim curl
+$ sudo apt-get install vim curl git
 ```
 
 ### Installing
@@ -13,7 +13,7 @@ $ sudo apt-get install vim curl
 1. Clone this repository.
 
    ```bash:
-   $ cd $HOME
+   $ cd
    $ git clone https://github.com/tsalvia/.vim
    ```
 
