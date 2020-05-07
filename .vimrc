@@ -140,6 +140,12 @@ nmap tt <Plug>(ToggleColorColumn)
 set pastetoggle=<F10>
 nnoremap <F10> :set paste!<CR>:set paste?<CR>
 
+" ============================================================
+" 拡張子
+" ============================================================
+
+" NSE(Nmap Script Engine)
+autocmd BufNewFile,BufRead *.nse  set filetype=lua
 
 " ============================================================
 " その他
