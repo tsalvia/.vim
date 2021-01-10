@@ -84,8 +84,10 @@ set clipboard=unnamedplus	" yankしたデータをクリップボードに入れ
 " ============================================================
 
 set t_Co=256
-colorscheme molokai
 set background=dark
+set runtimepath+=$HOME/.vim/colors/molokai.vim
+
+colorscheme molokai
 
 " 色を有効にする
 syntax enable
