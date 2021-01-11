@@ -12,6 +12,9 @@ if dein#load_state(expand('$HOME/.vim/bundle/'))
 
 	call dein#add('Shougo/dein.vim')
 
+	" カラースキームの追加 (molokai)
+	call dein#add('tomasr/molokai')
+
 	" コメントアウトの補助
 	call dein#add('tyru/caw.vim')
 
@@ -73,20 +76,10 @@ set clipboard=unnamedplus	" yankしたデータをクリップボードに入れ
 
 " ============================================================
 " 表示設定 - カラースキーマ
-"
-" [Molokai インストール方法]
-"
-" 1. mkdir -p ~/.vim/colors
-" 2. cd ~/.vim/colors
-" 3. git clone https://github.com/tomasr/molokai.git
-" 4. mv molokai/colors/molokai.vim .
-" 5. rm ~/molokai -rf
 " ============================================================
 
 set t_Co=256
 set background=dark
-set runtimepath+=$HOME/.vim/colors/molokai.vim
-
 colorscheme molokai
 
 " 色を有効にする
